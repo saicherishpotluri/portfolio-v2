@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import githubLight from "../../assets/github-light.svg";
@@ -8,6 +7,8 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedInLight from "../../assets/linkedin-light.svg";
 import linkedInDark from "../../assets/linkedin-dark.svg";
 import resume from "../../assets/saiPotluriSDEResume.pdf";
+import dplite from "../../assets/dp-lite.png";
+import dpdark from "../../assets/dp-dark.png";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -15,6 +16,7 @@ function Hero() {
   const themeIcon = theme === "light" ? sun : moon;
   const linkedInIcon = theme === "light" ? linkedInLight : linkedInDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
+  const heroImg = theme === "light" ? dplite : dpdark;
   return (
     <section id="hero" className={styles.container}>
       {/* Hero Section Starts */}

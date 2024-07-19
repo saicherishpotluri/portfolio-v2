@@ -1,7 +1,7 @@
 :root {
-  --background-color: #fff;
+  --background-color: #fff6e9;
   --btn-color: #0987f2;
-  --btn-txt-color: #fff;
+  --btn-txt-color: #fff6e9;
   --project-card-bg: #ffffff000;
   --text-color: #222;
   --form-text-color: #555;
@@ -10,11 +10,11 @@
 
 [data-theme='dark'] {
   --background-color: #222;
-  --btn-color: #fff;
+  --btn-color: #fff6e9;
   --btn-txt-color: #222;
-  --project-card-bg: #fff;
-  --text-color: #fff;
-  --form-text-color: #fff;
+  --project-card-bg: #fff6e9;
+  --text-color: #fff6e9;
+  --form-text-color: #fff6e9;
   --footer-text-color: #bbb;
 }
 
@@ -40,19 +40,23 @@ p {
   padding: 0;
 }
 
-h2,h3,p{
+h2,
+h3,
+p {
   font-family: 'Roboto Mono', monospace;
 }
 
-h1, h2{
+h1,
+h2 {
   text-transform: uppercase;
 }
 
-h2, h3{
+h2,
+h3 {
   font-size: 20px;
 }
 
-h1{
+h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 32px;
   font-weight: 300;
@@ -62,6 +66,36 @@ h1{
   margin-bottom: 30px;
 }
 
-.hover{
+.hover {
   cursor: pointer;
+}
+
+@media (width >= 800px){
+  #root{
+    gap: 100px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  h2,h3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .sectionTitle{
+    margin-bottom: 60px;
+  }
+}
+
+@media (width >= 1400px){
+  #root{
+    gap: 200px;
+  }
+  h1{
+    font-size: 48px;
+  }
+  .sectionTitle{
+    margin-bottom: 75px;
+  }
 }

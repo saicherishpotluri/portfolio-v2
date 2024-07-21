@@ -6,7 +6,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedInLight from "../../assets/linkedin-light.svg";
 import linkedInDark from "../../assets/linkedin-dark.svg";
-import resume from "../../assets/saiPotluriSDEResume.pdf";
+import resume from "../../assets/saiPotluriSDEResume-2.pdf";
 import dplite from "../../assets/dp-lite.png";
 import dpdark from "../../assets/dp-dark.png";
 import { useTheme } from "../../common/ThemeContext";

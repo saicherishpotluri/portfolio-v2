@@ -3,6 +3,7 @@ import styles from "../Projects/ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import cloud from "../../assets/clou-d.png";
 import asl from "../../assets/asl-app.png";
+import notes from "../../assets/sticky-notes.png"
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
   return (
@@ -26,6 +27,12 @@ function Projects() {
           link="https://github.com/saicherishpotluri/SimpleStreamPlayer"
           projectName={"Streemz"}
           projectDesc={"Simple Stream Player using HLS Technology"}
+        />
+        <ProjectCard
+          src={notes}
+          link="https://github.com/saicherishpotluri/stickyNotes-React"
+          projectName={"Sticky Notes"}
+          projectDesc={"Simple Sticky Notes application using ReactJS"}
         />
       </div>
     </section>

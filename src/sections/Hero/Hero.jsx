@@ -44,7 +44,7 @@ function Hero() {
         </h1>
         <h2>Fullstack Developer</h2>
         <span>
-          <a href="https://linkedin.com" target="_blank">
+          <a href="https://www.linkedin.com/in/spotluri" target="_blank">
             <img src={linkedInIcon} alt="LinkedIn Icon" />
           </a>
           <a href="https://github.com/saicherishpotluri" target="_blank">

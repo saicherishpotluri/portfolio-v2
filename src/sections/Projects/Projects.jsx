@@ -3,7 +3,8 @@ import styles from "../Projects/ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import cloud from "../../assets/clou-d.png";
 import asl from "../../assets/asl-app.png";
-import notes from "../../assets/sticky-notes.png"
+import notes from "../../assets/sticky-notes.png";
+import dataAnalysis from "../../assets/data-analysis.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
   return (
@@ -33,6 +34,12 @@ function Projects() {
           link="https://github.com/saicherishpotluri/stickyNotes-React"
           projectName={"Sticky Notes"}
           projectDesc={"Simple Sticky Notes application using ReactJS"}
+        />
+        <ProjectCard
+          src={dataAnalysis}
+          link="https://github.com/saicherishpotluri/Analyze-Data-with-Amazon-QuickSight"
+          projectName={"Data Analysis"}
+          projectDesc={"Netflix data analysis using Quicksight"}
         />
       </div>
     </section>

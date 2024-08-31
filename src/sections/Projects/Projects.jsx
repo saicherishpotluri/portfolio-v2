@@ -5,6 +5,7 @@ import cloud from "../../assets/clou-d.png";
 import asl from "../../assets/asl-app.png";
 import notes from "../../assets/sticky-notes.png";
 import dataAnalysis from "../../assets/data-analysis.png";
+import aiImgGen from "../../assets/aiImgGen.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
   return (
@@ -21,25 +22,31 @@ function Projects() {
           src={asl}
           link="https://github.com/saicherishpotluri/Extracting-Brain-Boundaries-from-rs-fMRI-data"
           projectName={"ASL Gesture App"}
-          projectDesc={"Application to Determine ASL Gestures"}
+          projectDesc={"ASL Gesture Recognition"}
         />
         <ProjectCard
           src={viberr}
           link="https://github.com/saicherishpotluri/SimpleStreamPlayer"
           projectName={"Streemz"}
-          projectDesc={"Simple Stream Player using HLS Technology"}
+          projectDesc={"Streaming using HLS Technology"}
         />
         <ProjectCard
           src={notes}
           link="https://github.com/saicherishpotluri/stickyNotes-React"
           projectName={"Sticky Notes"}
-          projectDesc={"Simple Sticky Notes application using ReactJS"}
+          projectDesc={"Sticky Notes App using ReactJS"}
         />
         <ProjectCard
           src={dataAnalysis}
           link="https://github.com/saicherishpotluri/Analyze-Data-with-Amazon-QuickSight"
           projectName={"Data Analysis"}
-          projectDesc={"Netflix data analysis using Quicksight"}
+          projectDesc={"Data Analysis using Quicksight"}
+        />
+        <ProjectCard
+          src={aiImgGen}
+          link="https://github.com/saicherishpotluri/image-reconition-app"
+          projectName={"AI Image Analyzer"}
+          projectDesc={"Image Analysis using Gemini"}
         />
       </div>
     </section>
